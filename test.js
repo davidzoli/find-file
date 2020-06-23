@@ -5,7 +5,7 @@ const path = require('path');
 const assert = require('assert');
 const findFile = require('./');
 
-describe('.forIn()', function() {
+describe('findFile()', function() {
   it('shouldn\'t find any index.txt in test folder.', function() {
     const content = findFile('index.txt', false, ['test']);
     assert.equal(content, false);

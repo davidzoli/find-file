@@ -1,4 +1,4 @@
-# find-file
+# find-file-in-folders
 
 > Try to find a file in the given folder(s).
 > File can have a leading undescore.
@@ -7,7 +7,7 @@
 ## Usage
 
 ```js
-const findFile = require('find-file');
+const findFile = require('find-file-in-folders');
 const folders = ['jsFiles', 'txtFiles', 'htmlFiles'];
 
 var filePath = findFile('hello', '.txt', folders);
@@ -19,7 +19,7 @@ console.log(filePath);
 Advised to use it in a wrapper function which using files.
 ```js
 
-const findFile = require('find-file');
+const findFile = require('find-file-in-folders');
 const fs = require('fs');
 const folders = ['jsFiles', 'txtFiles', 'htmlFiles'];
 
@@ -41,7 +41,7 @@ console.log(readFile('head'));
 
 ### Running tests
 
-Running and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:
+Install dependencies and run tests with the following command:
 
 ```sh
 $ npm install && npm test test.js

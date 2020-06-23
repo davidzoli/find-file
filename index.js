@@ -1,5 +1,5 @@
 /*!
- * find-file <https://github.com/davidzoli/find-file>
+ * find-file-in-folders <https://github.com/davidzoli/find-file-in-folders>
  *
  * Copyright (c) 2020, Zoltan David.
  * Released under the MIT License.
