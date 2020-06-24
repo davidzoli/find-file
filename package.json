@@ -1,7 +1,7 @@
 {
   "name": "find-file-in-folders",
   "description": "Try to find a file in given folders",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/davidzoli/find-file-in-folders",
   "author": "Zoltan David (https://github.com/davidzoli)",
   "contributors": [

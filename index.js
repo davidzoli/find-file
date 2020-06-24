@@ -10,6 +10,13 @@
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * Test a file path in the given folder(s).
+ * @param filepath string File name to search for. Can contain extension, can contain subfolder realively to one of the paths array.
+ * @param defaultExt {boolean|string} File's extension or false if the filepath contains extension.
+ * @param paths Array The folders to test for the file.
+ * @returns {boolean|string} The file path to the file. False if not found.
+ */
 module.exports = function findFile(filepath, defaultExt, paths) {
   const fileExt = path.extname(filepath) || false;
   let fpath;
